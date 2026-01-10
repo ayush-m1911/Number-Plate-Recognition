@@ -1,56 +1,53 @@
-🚗 Automatic License Plate Recognition (ALPR)
+```md
+# 🚗 Automatic License Plate Recognition (ALPR)
 
-This project implements an Automatic License Plate Recognition (ALPR) system using OpenCV, machine learning classifiers, and image processing techniques.
-The system detects license plates from images, segments individual characters, and recognizes them using trained character and digit classifiers.
+This project implements an **Automatic License Plate Recognition (ALPR)** system using **OpenCV, machine learning classifiers, and image processing techniques**.  
+The system detects license plates from images, segments individual characters, and recognizes them using trained **character and digit classifiers**.
 
-📌 Features
+---
 
-License plate localization
+## 📌 Features
 
-Character segmentation & scissoring
+- License plate localization  
+- Character segmentation and scissoring  
+- Machine learning–based character recognition  
+- Separate classifiers for letters and digits  
+- Supports multiple images from a folder  
+- Displays detected plate and recognized text on the image  
 
-ML-based character recognition
+---
 
-Separate classifiers for letters and digits
-
-Works on multiple images in a folder
-
-Displays detected plate and recognized text on the image
-
-🧠 Project Pipeline
+## 🧠 Project Pipeline
 
 The ALPR system follows a structured pipeline:
 
-Localization
-Detects the license plate region from the image.
+- **Localization**  
+  Detects the license plate region from the image.
 
-Segmenting Characters
-Extracts individual characters from the detected license plate.
+- **Segmenting Characters**  
+  Extracts individual characters from the detected license plate.
 
-Scissoring Characters
-Refines character boundaries for better recognition.
+- **Scissoring Characters**  
+  Refines character boundaries for better recognition.
 
-First Try
-Initial recognition using basic classifiers.
+- **First Try**  
+  Performs initial recognition using basic classifiers.
 
-Gathering Character Examples
-Collects character samples for training improved models.
+- **Gathering Character Examples**  
+  Collects character samples for training improved models.
 
-Improving Classifier
-Uses enhanced feature extraction and trained ML models for higher accuracy.
+- **Improving Classifier**  
+  Uses enhanced feature extraction and trained ML models for higher accuracy.
 
-🛠️ Tech Stack
+---
 
-Python
+## 🛠️ Tech Stack
 
-OpenCV
-
-NumPy
-
-imutils
-
-scikit-learn
-
-cPickle
-
-Custom image descriptors & detectors
+- Python  
+- OpenCV  
+- NumPy  
+- imutils  
+- scikit-learn  
+- cPickle  
+- Custom image descriptors and detectors  
+```
